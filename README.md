@@ -14,7 +14,9 @@ Stored Procedures: encapsulamento de consultas complexas para geração de relat
 Consultas analíticas avançadas: análise de receita por tipo de culinária, gasto médio por cliente, desempenho de restaurantes e padrões de comportamento de usuários.
 <br>
 <br>
-### Estruturas das tabelas:
+### Diagrama Entidade Relacionamento das tabelas:
+<img width="767" height="648" alt="eer2" src="https://github.com/user-attachments/assets/49525dca-c62e-4af4-9cf4-08aea9c67499" />
+
 <br>
 
 ### Busquei responder as perguntas propostas pela criadora do repositório, classificadas em *intermediárias, analíticas e avançadas*:
