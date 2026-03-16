@@ -3,7 +3,7 @@ Repositório voltado à prática de SQL com um dataset de do Kaggle. (https://ww
 
 
 
-Busquei responder as perguntas propostas pela criadora do repositório, classificadas em INTERMEDIÁRIAS, ANALÍTICAS E AVANÇADAS:
+# Busquei responder as perguntas propostas pela criadora do repositório, classificadas em INTERMEDIÁRIAS, ANALÍTICAS E AVANÇADAS:
 
 🟢 Intermediate
 1. How many total orders were placed?
