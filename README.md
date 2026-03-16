@@ -2,10 +2,10 @@
 Repositório voltado à prática de SQL com um dataset de do Kaggle. (https://www.kaggle.com/datasets/nudratabbas/sql-practice-dataset-2-medium-queries)
 
 
+
 Busquei responder as perguntas propostas pela criadora do repositório, classificadas em INTERMEDIÁRIAS, ANALÍTICAS E AVANÇADAS:
 
 🟢 Intermediate
-
 1. How many total orders were placed?
 2. Which cities have the most customers?
 3. Which cuisine types are most common?
