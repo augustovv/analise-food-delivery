@@ -1,10 +1,23 @@
 # Análise de uma simulação de uma plataforma de entrega de comidas. 🍝
-Repositório voltado à prática de SQL com um dataset de do Kaggle. (https://www.kaggle.com/datasets/nudratabbas/sql-practice-dataset-2-medium-queries)
+### 📌 Resumo
+Este repositório tem como objetivo a prática de SQL utilizando o dataset SQL Practice Dataset 2 (Medium + Queries), criado por Nudrat Abbas no Kaggle. O conjunto de dados simula uma plataforma de entrega de comidas, com tabelas relacionais como customers, restaurants, menu_items, orders e order_items, permitindo explorar consultas em um contexto realista de negócios.
 
+### 🎯 Habilidades Desenvolvidas
+A partir de consultas intermediárias, este projeto avança para o domínio de técnicas mais sofisticadas em SQL, incluindo:
 
+Views: criação de visões para consolidar métricas e facilitar análises recorrentes.
 
-# Busquei responder as perguntas propostas pela criadora do repositório, classificadas em INTERMEDIÁRIAS, ANALÍTICAS E AVANÇADAS:
+Triggers: automação de regras e manutenção da consistência dos dados em tempo real.
 
+Stored Procedures: encapsulamento de consultas complexas para geração de relatórios dinâmicos e reutilizáveis.
+
+Consultas analíticas avançadas: análise de receita por tipo de culinária, gasto médio por cliente, desempenho de restaurantes e padrões de comportamento de usuários.
+<br>
+<br>
+### Estruturas das tabelas:
+<br>
+
+### Busquei responder as perguntas propostas pela criadora do repositório, classificadas em *intermediárias, analíticas e avançadas*:
 🟢 Intermediate
 1. How many total orders were placed?
 2. Which cities have the most customers?
@@ -25,3 +38,5 @@ Repositório voltado à prática de SQL com um dataset de do Kaggle. (https://ww
 11. Which cuisine type generates the most revenue?
 12. Which restaurant receives the most orders?
 13. What is the average spending per customer?
+
+### Resultados & análise: 
