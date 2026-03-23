@@ -1,8 +1,8 @@
-# Análise de uma simulação de uma plataforma de entrega de comidas. 🍝
+# Estudo baseado em uma simulação de uma plataforma de entrega de comidas. 🍝
 ### 📌 Resumo
 Este repositório tem como objetivo a prática de SQL e aplicação de funções avançadas utilizando o dataset SQL Practice Dataset 2 (Medium + Queries), criado por Nudrat Abbas no Kaggle [https://www.kaggle.com/datasets/nudratabbas/sql-practice-dataset-2-medium-queries/discussion/680731]. O conjunto de dados simula uma plataforma de entrega de comidas, com tabelas relacionais como *customers, restaurants, menu_items, orders e order_items*, permitindo explorar consultas em um contexto realista de negócios.
 
-### 🎯 Habilidades Desenvolvidas
+### 🎯 Principais habilidades desenvolvidas
 A partir de consultas intermediárias, este projeto avança para o domínio de técnicas mais sofisticadas em SQL, incluindo:
 
 Views: criação de visões para consolidar métricas e facilitar análises recorrentes.
