@@ -41,4 +41,23 @@ Consultas analíticas avançadas: análise de receita por tipo de culinária, ga
 12. Which restaurant receives the most orders?
 13. What is the average spending per customer?
 
-### Resultados: 
+
+<h1>Resultados</h1>
+
+<div style="max-width:650px; margin:auto; display:flex; overflow-x:auto; scroll-snap-type:x mandatory; gap:10px; padding:10px; border:1px solid #ccc; border-radius:8px;">
+  <img src="resultados/1.png" width="600" style="scroll-snap-align:center; margin:auto;">
+  <img src="resultados/2.png" width="600" style="scroll-snap-align:center; margin:auto;">
+  <img src="resultados/3.png" width="600" style="scroll-snap-align:center; margin:auto;">
+  <img src="resultados/4.png" width="600" style="scroll-snap-align:center; margin:auto;">
+  <img src="resultados/5.png" width="600" style="scroll-snap-align:center; margin:auto;">
+  <img src="resultados/6.png" width="600" style="scroll-snap-align:center; margin:auto;">
+  <img src="resultados/7.png" width="600" style="scroll-snap-align:center; margin:auto;">
+  <img src="resultados/8.png" width="600" style="scroll-snap-align:center; margin:auto;">
+  <img src="resultados/9.png" width="600" style="scroll-snap-align:center; margin:auto;">
+  <img src="resultados/10.png" width="600" style="scroll-snap-align:center; margin:auto;">
+  <img src="resultados/11.png" width="600" style="scroll-snap-align:center; margin:auto;">
+  <img src="resultados/12.png" width="600" style="scroll-snap-align:center; margin:auto;">
+</div>
+
+
+
