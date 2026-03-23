@@ -41,4 +41,4 @@ Consultas analíticas avançadas: análise de receita por tipo de culinária, ga
 12. Which restaurant receives the most orders?
 13. What is the average spending per customer?
 
-### Resultados & análise: 
+### Resultados: 
