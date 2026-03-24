@@ -84,4 +84,27 @@ AS
 </pre>
 
 
+<pre>
+CREATE VIEW top_three_items_most_ordered_per_restaurant ---> exibe o top 3 produtos mais vendidos de cada restaurante
+AS
+	SELECT * FROM (
+		SELECT 
+		 restaurant_id,
+		 item_id,
+		 count(item_id) as qtd_vezes_q_foi_pedido,
+		 ROW_NUMBER() OVER (PARTITION BY restaurant_id ORDER BY  COUNT(item_id) DESC)  as ranking 
+		FROM
+		 orders_medium
+		 JOIN 
+		 restaurants USING (restaurant_id)
+		 JOIN 
+          order_items USING (order_id)
+		 WHERE status <> 'Cancelled'
+		 GROUP BY 2) as T
+	 WHERE ranking <= 3;
+
+select * from top_three_items_most_ordered_per_restaurant;
+</pre>
+
+
 
