@@ -42,6 +42,7 @@ Consultas analíticas avançadas: análise de receita por tipo de culinária, ga
 13. What is the average spending per customer?
 
 
+
 <h1>Resultados</h1>
 
 <div style="max-width:650px; margin:auto; display:flex; overflow-x:auto; scroll-snap-type:x mandatory; gap:10px; padding:10px; border:1px solid #ccc; border-radius:8px;">
@@ -58,6 +59,28 @@ Consultas analíticas avançadas: análise de receita por tipo de culinária, ga
   <img src="resultados/11.png" width="600" style="scroll-snap-align:center; margin:auto;">
   <img src="resultados/12.png" width="600" style="scroll-snap-align:center; margin:auto;">
 </div>
+
+
+<h2>Views: </h2>
+
+<pre>
+CREATE VIEW all_orders_info   ----> reúne todas as informações de todos os pedidos.
+AS
+    SELECT  
+        order_id,
+        customer_id,
+        orders_medium.restaurant_id,
+        item_id,
+        price,
+        quantity,
+        order_time,
+        delivery_time,
+        status
+    FROM 
+        orders_medium 
+        JOIN order_items USING(order_id)  
+        JOIN menu_items USING(item_id);
+</pre>
 
 
 
