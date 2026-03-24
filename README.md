@@ -73,6 +73,7 @@ AS
         item_id,
         price,
         quantity,
+        quantity, ROUND((price*quantity),2) as total,
         order_time,
         delivery_time,
         status
